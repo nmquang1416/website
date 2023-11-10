@@ -1,3 +1,4 @@
+/* color */
 :root{
     --c10: #F2F2F2;
     --c20: #E6E6E6;
@@ -24,6 +25,10 @@
     padding: 0;
     margin: 0;
   }
+
+/* nav */
+
+
 nav{
     width: 100%;
     box-shadow: 1px 2pxvar(--c100);
@@ -90,4 +95,26 @@ img{
 .btn-nav:hover{
     background-color: var(--Secondary);
     color: var(--white);
+}
+
+
+/* header */
+
+header{
+    width: 1920px;
+    height: 544px;
+    flex-shrink: 0;
+    background-color: var(--c30);
+}
+.title-header{
+    color: var(--Black, #000);
+    font-family: Lato;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.header-size{
+    width: 1232px;
+    margin: auto;
 }
